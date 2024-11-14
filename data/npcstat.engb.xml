@@ -6,10 +6,10 @@
     <stats characteranims="102_arcade" charactername="Arcade" name="Arcade" skin="10201"/>
     <stats charactername="Ancient One" name="AncientOne" skin="0000"/>
     <stats charactername="Announcer" name="Announcer" skin="0000"/>
-    <stats characteranims="31_atlantean" charactername="Attilan Civilian" name="AttilanCivilian" skin="3101"/>
-    <stats characteranims="31_atlantean" charactername="Attilan Civilian" name="AttilanCivilian_b" skin="3102"/>
-    <stats characteranims="31_atlantean" charactername="Attilan Civilian" name="AttilanCivilian_c" skin="3103"/>
-    <stats characteranims="31_atlantean" charactername="Attilan Civilian" name="AttilanCivilian_d" skin="3104"/>
+    <stats characteranims="31_atlantean" charactername="Attilan Civilian" name="AttilanCivilian" skin="1401"/>
+    <stats characteranims="31_atlantean" charactername="Attilan Civilian" name="AttilanCivilian_b" skin="17304"/>
+    <stats characteranims="31_atlantean" charactername="Attilan Civilian" name="AttilanCivilian_c" skin="8001"/>
+    <stats characteranims="31_atlantean" charactername="Attilan Civilian" name="AttilanCivilian_d" skin="2001"/>
     <stats characteranims="101_balder" charactername="Balder" name="Balder" skin="10101"/>
     <stats characteranims="87_black_bolt" charactername="Black Bolt" name="BlackBolt" skin="8701"/>
     <stats characteranims="148_black_widow" charactername="Black Widow" name="BlackWidow" skin="14801"/>
