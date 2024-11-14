@@ -1,0 +1,554 @@
+<world>
+    <entity act="1" combatlocked="true" extent_max="1260 2520 960" extent_min="-1139 -179 0" killz="108" level="3" name="world" nosave="true" soundfile="town1" startblack="true" zonescript="act1/stark/stark1" />
+    <precache filename="act1/stark/1_stark1_010" type="conversation" />
+    <precache filename="act1/stark/1_stark1_030" type="conversation" />
+    <precache filename="act1/stark/1_stark1_040" type="conversation" />
+    <precache filename="act1/stark/1_stark1_060" type="conversation" />
+    <precache filename="act1/stark/1_stark1_070" type="conversation" />
+    <precache filename="act1/stark/1_stark1_072" type="conversation" />
+    <precache filename="act1/stark/1_stark1_080" type="conversation" />
+    <precache filename="act1/stark/1_stark1_090" type="conversation" />
+    <precache filename="act1/stark/1_stark1_100" type="conversation" />
+    <precache filename="act1/stark/1_stark1_310" type="conversation" />
+    <precache filename="act1/stark/1_stark1_320" type="conversation" />
+    <precache filename="act1/stark/1_stark1_330" type="conversation" />
+    <precache filename="act1/stark/1_stark1_350" type="conversation" />
+    <precache filename="act1/stark/1_stark1_360" type="conversation" />
+    <precache filename="act1/stark/1_stark1_510" type="conversation" />
+    <precache filename="act1/stark/1_stark1_520" type="conversation" />
+    <precache filename="act1/stark/1_stark1_530" type="conversation" />
+    <precache filename="act1/stark/1_stark1_540" type="conversation" />
+    <precache filename="act1/stark/1_stark1_550" type="conversation" />
+    <precache filename="act1/stark/1_stark1_560" type="conversation" />
+    <precache filename="act1/stark/1_stark1_710" type="conversation" />
+    <precache filename="act1/stark/1_stark1_720" type="conversation" />
+    <precache filename="act1/stark/1_stark1_760" type="conversation" />
+    <precache filename="act1/stark/intro_stark1" type="conversation" />
+    <precache filename="act1/stark/stark_hello" type="conversation" />
+    <precache filename="act4/attilan/briefing_temp" type="conversation" />
+    <precache filename="act1/stark/check_decrypt_mod" type="script" />
+    <precache filename="act1/stark/check_helmet" type="script" />
+    <precache filename="act1/stark/check_labtop" type="script" />
+    <precache filename="act1/stark/check_ultimo_sche" type="script" />
+    <precache filename="act1/stark/complete_stark_obj50" type="script" />
+    <precache filename="act1/stark/conv_load_wingfoot" type="script" />
+    <precache filename="act1/stark/give_decrypt_mod" type="script" />
+    <precache filename="act1/stark/give_labtop" type="script" />
+    <precache filename="act1/stark/load_atlantis1" type="script" />
+    <precache filename="act1/stark/load_mandarin1" type="script" />
+    <precache filename="act1/stark/load_omega1" type="script" />
+    <precache filename="act1/stark/move_lift" type="script" />
+    <precache filename="act1/stark/show_atlantis_obj10" type="script" />
+    <precache filename="act1/stark/show_mandarin_obj10" type="script" />
+    <precache filename="act1/stark/show_omega_obj10" type="script" />
+    <precache filename="act1/stark/show_ultimo_obj" type="script" />
+    <precache filename="act1/stark/talk_blackwidow01b" type="script" />
+    <precache filename="act1/stark/talk_fury01b" type="script" />
+    <precache filename="common/conv_run_once/run_once02" type="script" />
+    <precache filename="common/conv_run_once/run_once03" type="script" />
+    <precache filename="common/conv_run_once/run_once04" type="script" />
+    <precache filename="common/conv_run_once/run_once06" type="script" />
+    <precache filename="common/conv_run_once/run_once07" type="script" />
+    <precache filename="common/conv_run_once/run_once08" type="script" />
+    <precache filename="common/set_importanttalk" type="script" />
+    <precache filename="common/shop" type="script" />
+    <precache filename="Voice/stark_office_assistant/1_STARK1_110_014_SOA" type="sound" />
+    <precache filename="common/game/pickup_item" type="sound" />
+    <precache filename="zone_shared/stark/keyboard_loop" type="sound" />
+    <precache filename="zone_shared/stark/to_lair" type="sound" />
+    <precache filename="zone_shared/stark/trivia_console_loop" type="sound" />
+    <entity actcountremove="1" character="BlackWidow" classname="monsterspawnerent" name="sp_blackwidow" nocollide="true" />
+    <entity actcountremove="1" character="HankPym" classname="monsterspawnerent" name="sp_hankpym" nocollide="true" />
+    <entity actcountremove="1" character="NickFuryNPC" classname="monsterspawnerent" name="sp_nickfurynpc" nocollide="true" />
+    <entity actcountremove="1" character="OfficeWorkerFemale" classname="monsterspawnerent" name="sp_officeworkerfemale" nocollide="true" />
+    <entity actcountremove="1" character="OfficeWorkerFemale_b" classname="monsterspawnerent" name="sp_officeworkerfemale_b" nocollide="true" />
+    <entity actcountremove="1" character="OfficeWorkerFemale_c" classname="monsterspawnerent" name="sp_officeworkerfemale_c" nocollide="true" />
+    <entity actcountremove="1" character="OfficeWorkerMale" classname="monsterspawnerent" name="sp_officeworkermale" nocollide="true" />
+    <entity actcountremove="1" character="OfficeWorkerMale_c" classname="monsterspawnerent" name="sp_officeworkermale_c" nocollide="true" />
+    <entity actcountremove="1" character="OfficeWorkerMale_d" classname="monsterspawnerent" name="sp_officeworkermale_d" nocollide="true" />
+    <entity actcountremove="1" character="Vision" classname="monsterspawnerent" name="sp_vision" nocollide="true" />
+    <entity actcountremove="1" character="WyattWingfoot" classname="monsterspawnerent" name="sp_wyattwingfoot" nocollide="true" />
+    <entity actcountremove="1" acteffect="base/item/item_pickup" actmatchteam="true" actonuse="true" actscript="waittimed (0.5)\n\rimageViewer('textures/concept/concept01.png')" actsound="common/game/concept_art_pickup" animstarton="true" classname="rememberent" description="Sketch Book" fxlevel="7" idnum="1" ignoreactorsonmove="true" loopfx="base/item/item_sparkle" loopfxstarton="true" model="pickups/sketchpad" name="concept_art1" nocollide="true" nopickup="true" nopush="true" quickuse="true" spinpossible="false" structure="2" team="hero" variablename="r_c_art" />
+    <entity actcountremove="1" actdistance="60" acteffect="base/misc/techstation_focus" actleader="true" actmatchteam="true" actonuse="true" actscript="permanentStatBoost('_ACTIVATOR_','body')" actsound="zone_shared/object/techstation" animstarton="true" classname="rememberent" description="Pick up body upgrade" material="solid_metal" model="pickups/body_pickup" name="upgrade_body" nocollide="true" nopickup="true" nopush="true" quickuse="true" randompickups="0" structure="2" team="hero" variablename="r_upgrade_b" />
+    <entity actcountremove="1" actdistance="60" acteffect="base/misc/techstation_focus" actleader="true" actmatchteam="true" actonuse="true" actscript="permanentStatBoost('_ACTIVATOR_','focus')" actsound="zone_shared/object/techstation" animstarton="true" classname="rememberent" description="Pick up focus upgrade" material="solid_metal" model="pickups/focus_pickup" name="upgrade_focus" nocollide="true" nopickup="true" nopush="true" quickuse="true" randompickups="0" structure="2" team="hero" variablename="r_upgrade_f" />
+    <entity actcountremove="1" actdistance="60" acteffect="base/misc/techstation_focus" actleader="true" actmatchteam="true" actonuse="true" actscript="permanentStatBoost('_ACTIVATOR_','striking')" actsound="zone_shared/object/techstation" animstarton="true" classname="rememberent" description="Pick up striking upgrade" material="solid_metal" model="pickups/striking_pickup" name="upgrade_striking" nocollide="true" nopickup="true" nopush="true" quickuse="true" randompickups="0" structure="2" team="hero" variablename="r_upgrade_s" />
+    <entity actinactivedelay="1" actleader="true" actonuse="true" actscript="common/puzzleents/blinkportal" actsoundloop="zone_shared/special/blink_portal" acttogglesloopfx="true" boxcollision="true" classname="gameent" deatheffect="map/common/scr_blinkportal_c" description="Portal" loopfx="map/common/scr_blinkportal" loopfxstarton="false" name="blink_portal_loc" nocollide="true" resetstate="true" smartent="false" spawnscript="common/puzzleents/blinkportalspawnscript" startenabled="false" team="hero" toggleonact="true" />
+    <entity boxcollision="true" classname="gameent" name="dynamic_clip" nocollide="false" />
+    <entity classname="actionent" name="loop_sound" nocollide="true" smartent="true" toggleonact="true" />
+    <entity classname="ent" name="null" nocollide="true" />
+    <entity allinone="true" classname="playerstartent" name="player_start_all" nocollide="true" />
+    <entity classname="actionent" name="relay" nocollide="true" />
+    <entity classname="physent" health="1" name="shoot_me" nocollide="true" nogravity="true" nopickup="true" structure="2" />
+    <entity actleader="true" actmatchteam="true" boxcollision="true" classname="scripttriggerent" name="trigger_area" nocollide="true" team="hero" />
+    <entity actonuse="true" boxcollision="true" classname="gameent" name="trigger_use" nocollide="true" team="none" />
+    <entity classname="waypointent" name="waypoint" nocollide="true" />
+    <entity actleader="true" actmatchteam="true" actonuse="true" actscript="common/extraction/exp_activate" actsound="common/game/xtraction" acttogglesanim="true" acttogglesloopfx="true" animstarton="false" classname="gameent" description="S.H.I.E.L.D. Access Point" extent="-30 -30 0 30 30 60" fxlevel="1" ignoretelekinesis="true" loopfx="base/misc/extraction_loop" loopfxstarton="false" model="common/extraction_point" name="xtraction_point" nogravity="true" nopickup="true" nopush="true" quickuse="true" resetstate="true" spawnscript="common/extraction/exp_spawn" team="hero" />
+    <entity actinactivedelay="2" actleader="true" actmatchteam="true" actonuse="true" boxcollision="true" classname="zonelinkent" description="Enter next area" name="zone_link" nocollide="false" team="hero" />
+    <entity classname="physent" material="solid_metal" model="stark/cufflinks_stk_e" name="cufflinks_stk_e" nogravity="true" nopickup="true" nopush="true" structure="2" />
+    <entity actcountdisable="1" actonuse="true" autoclosedelay="0" classname="doorent" material="solid_metal" model="stark/doors_logo_stk_d" name="doors_logo_stk_d_" nogravity="true" nopickup="true" nopush="true" randompickups="0" structure="2" toggleonact="true" />
+    <entity classname="moverent" material="solid_metal" model="stark/elevator_lift_stk_m" move="0 0 0" moveduration="1" name="elevator_lift_stk_m" nogravity="true" nopickup="true" nopush="true" nostep="false" pathignore="true" randompickups="0" structure="2" toggleonact="true" />
+    <entity camerafadeout="true" classname="physent" material="solid_metal" model="stark/hanging_light_01_stk_e" name="hanging_light_01_stk_e" nogravity="true" nopickup="true" nopush="true" structure="2" />
+    <entity actonuse="true" actsound="zone_shared/object/console_fighter" classname="physent" material="solid_metal" model="stark/mission_review_machine_stk_a" name="mission_review_machine_stk_a" nogravity="true" nopickup="true" nopush="true" randompickups="0" structure="2" />
+    <entity actonuse="true" actsound="zone_shared/object/console_fighter" classname="physent" material="solid_metal" model="stark/mission_training_machine_stk_a" name="mission_training_machine_stk_a" nogravity="true" nopickup="true" nopush="true" randompickups="0" structure="2" />
+    <entity actonuse="true" actsound="zone_shared/object/console_fighter" classname="physent" material="solid_metal" model="stark/mission_trivia_machine_stk_a" name="mission_trivia_machine_stk_a" nogravity="true" nopickup="true" nopush="true" randompickups="0" structure="2" />
+    <entity camerafadeout="true" classname="physent" material="solid_metal" model="stark/pillar_01_20ft_stk_e" name="pillar_01_20ft_stk_e" nogravity="true" nopickup="true" nopush="true" randompickups="0" structure="2" />
+    <entity camerafadeout="true" classname="physent" material="solid_metal" model="stark/pillar_01_35ft_stk_e" name="pillar_01_35ft_stk_e" nogravity="true" nopickup="true" nopush="true" structure="2" />
+    <entity camerafadeout="true" classname="physent" material="solid_metal" model="stark/pillar_02_20ft_stk_e" name="pillar_02_20ft_stk_e" nogravity="true" nopickup="true" nopush="true" randompickups="0" structure="2" />
+    <entity camerafadeout="true" classname="physent" material="solid_metal" model="stark/pillar_square_40ft_stk_e" name="pillar_square_40ft_stk_e" nogravity="true" nopickup="true" nopush="true" structure="2" />
+    <entity classname="physent" material="solid_metal" model="stark/planter_long_stk_e" name="planter_long_stk_e" nogravity="true" nopickup="true" nopush="true" structure="2" />
+    <entity camerafadeout="true" classname="physent" material="solid_metal" model="stark/statue_15ft_stk_e" name="statue_15ft_stk_e" nogravity="true" nopickup="true" nopush="true" randompickups="0" structure="2" />
+    <entity actonuse="true" classname="physent" material="solid_metal" model="stark/waterfall_bridge_railing_stk_a" name="waterfall_bridge_railing_stk_a" nogravity="true" nopickup="true" nopush="true" randompickups="0" structure="2" />
+    <entity classname="moverent" material="solid_metal" model="stark/waterfall_bridge_stk_m" move="0 0 0" moveduration="1" name="waterfall_bridge_stk_m" nogravity="true" nopickup="true" nopush="true" nostep="false" pathignore="true" randompickups="0" structure="2" toggleonact="true" />
+    <entity animstarton="true" classname="physent" material="none" model="stark/waterfall_stk_a" name="waterfall_stk_a" nogravity="true" nopickup="true" nopush="true" randompickups="0" spawnsoundloop="zone_shared/stark/waterfall" structure="2" />
+    <entity classname="physent" material="solid_metal" model="stark/work_chair_01_stk_e" name="work_chair_01_stk_e" nogravity="true" nopickup="true" nopush="true" structure="2" />
+    <entinst type="sp_blackwidow01">
+        <inst extents="-12 -18 0 36 18 84" name="sp_blackwidow01" orient="0 0 1.5708" pos="120 960 480" />
+    </entinst>
+    <entinst type="sp_hankpym01">
+        <inst extents="-12.0001 -18 0 35.9999 18 84" name="sp_hankpym01" orient="0 0 2.44346" pos="-519.334 1508.92 480" />
+    </entinst>
+    <entinst type="sp_nickfurynpc01">
+        <inst extents="-12 -18 0 36 18 84" name="sp_nickfurynpc01" orient="0 0 1.5708" pos="-39.2107 1003.61 480" />
+    </entinst>
+    <entinst type="sp_walker02">
+        <inst extents="-12 -18 0 36 18 84" name="sp_walker02" orient="0 0 3.14149" pos="739.329 1285.73 362.008" />
+    </entinst>
+    <entinst type="sp_talker06">
+        <inst extents="-12 -18 0 36 18 84" name="sp_talker06" orient="0 0 -0.951205" pos="-358.67 386.63 362.008" />
+        <inst extents="-12 -18 0 36 18 84" name="sp_talker16" orient="0 0 2.24653" pos="448.97 388.962 362.008" />
+        <inst extents="-12 -18 0 36 18 84" name="sp_talker18" orient="0 0 2.24653" pos="692.813 423.407 362.008" />
+        <inst extents="-12 -18 0 36 18 84" name="sp_talker10" orient="0 0 -1.64934" pos="-111.559 400.489 362.008" />
+    </entinst>
+    <entinst type="sp_talker26">
+        <inst extents="-12 -18 0 36 18 84" name="sp_talker26" orient="0 0 -3.10225" pos="-294.195 1535.9 362.008" />
+        <inst extents="-12 -18 0 36 18 84" name="sp_talker20" orient="0 0 -1.73941" pos="957.154 921.06 482.008" />
+        <inst extents="-12 -18 0 36 18 84" name="sp_talker24" orient="0 0 0.704048" pos="-249.338 1903.08 362.008" />
+    </entinst>
+    <entinst type="sp_officeworkerfemale_b01">
+        <inst extents="-12 -18 0 36 18 84" name="sp_officeworkerfemale_b01" pos="745.712 1681.93 480" />
+    </entinst>
+    <entinst type="sp_talker11">
+        <inst extents="-12 -18 0 36 18 84" name="sp_talker11" orient="0 0 1.46113" pos="165.772 273.957 362.008" />
+        <inst extents="-12 -18 0 36 18 84" name="sp_talker05" orient="0 0 2.24653" pos="-326.153 347.877 362.008" />
+        <inst extents="-12 -18 0 36 18 84" name="sp_talker01" orient="0 0 1.54839" pos="-561.195 573.019 362.008" />
+    </entinst>
+    <entinst type="sp_talker23">
+        <inst extents="-12.0001 -18 0 35.9999 18 84" name="sp_talker23" orient="0 0 -2.31686" pos="-221.267 1930.41 362.008" />
+    </entinst>
+    <entinst type="sp_talker02">
+        <inst extents="-12 -18 0 36 18 84" name="sp_talker02" orient="0 0 -1.64934" pos="-561.195 623.607 362.008" />
+        <inst extents="-12 -18 0 36 18 84" name="sp_talker08" orient="0 0 -1.64934" pos="-202.092 573.741 362.008" />
+        <inst extents="-12 -18 0 36 18 84" name="sp_talker15" orient="0 0 -0.951205" pos="416.453 427.714 362.008" />
+    </entinst>
+    <entinst type="sp_talker28">
+        <inst extents="-12 -18 0 36 18 84" name="sp_talker28" orient="0 0 1.9592" pos="-830.111 890.272 482.008" />
+    </entinst>
+    <entinst type="sp_talker27">
+        <inst extents="-12 -18 0 36 18 84" name="sp_talker27" orient="0 0 -1.30308" pos="-843.018 927.264 482.008" />
+        <inst extents="-12 -18 0 36 18 84" name="sp_talker21" orient="0 0 -2.57865" pos="410.857 1855.03 362.008" />
+        <inst extents="-12 -18 0 36 18 84" name="sp_talker25" orient="0 0 -0.0813503" pos="-333.371 1536.42 362.008" />
+        <inst extents="-11.9999 -18 0 36.0001 18 84" name="sp_talker03" orient="0 0 0.704048" pos="181.753 1470.18 362.008" />
+    </entinst>
+    <entinst type="sp_walker01">
+        <inst extents="-12 -18 0 36 18 84" name="sp_walker01" orient="0 0 3.14149" pos="59.6235 637.347 362.008" />
+    </entinst>
+    <entinst type="sp_talker09">
+        <inst extents="-12 -18 0 36 18 84" name="sp_talker09" orient="0 0 1.40499" pos="-118.864 340.993 362.008" />
+        <inst extents="-12 -18 0 36 18 84" name="sp_talker17" orient="0 0 -0.951205" pos="660.296 462.16 362.008" />
+        <inst extents="-12 -18 0 36 18 84" name="sp_talker13" orient="0 0 -0.776672" pos="218.362 497.339 362.008" />
+    </entinst>
+    <entinst type="sp_talker22">
+        <inst extents="-12 -18 0 36 18 84" name="sp_talker22" orient="0 0 0.442248" pos="376.668 1835.89 362.008" />
+    </entinst>
+    <entinst type="sp_talker07">
+        <inst extents="-12 -18 0 36 18 84" name="sp_talker07" orient="0 0 1.5484" pos="-202.092 523.153 362.008" />
+        <inst extents="-12 -18 0 36 18 84" name="sp_talker12" orient="0 0 -1.7366" pos="170.181 324.353 362.008" />
+        <inst extents="-12 -18 0 36 18 84" name="sp_talker29" orient="0 0 0.0648651" pos="36.0631 298.055 362.008" />
+    </entinst>
+    <entinst type="sp_talker14">
+        <inst extents="-12 -18 0 36 18 84" name="sp_talker14" orient="0 0 2.42106" pos="257.114 464.822 362.008" />
+        <inst extents="-12 -18 0 36 18 84" name="sp_talker30" orient="0 0 -3.13287" pos="86.4585 302.464 362.008" />
+    </entinst>
+    <entinst type="sp_talker04">
+        <inst extents="-12.0001 -18.0001 0 35.9999 17.9999 84" name="sp_talker04" orient="0 0 -2.31686" pos="209.824 1497.51 362.008" />
+        <inst extents="-12 -18 0 36 18 84" name="sp_talker19" orient="0 0 1.52287" pos="953.219 882.079 482.008" />
+    </entinst>
+    <entinst type="sp_vision01">
+        <inst extents="-12 -18 0 36 18 84" name="sp_vision01" orient="0 0 2.69161" pos="-617.184 1764.07 486" />
+    </entinst>
+    <entinst type="sp_wyattwingfoot01">
+        <inst extents="-12 -18 0 36 18 84" name="sp_wyattwingfoot01" orient="0 0 -1.5708" pos="-1.66654 40.1575 360" />
+    </entinst>
+    <entinst type="concept_art1">
+        <inst name="concept_art1" pos="60 180 360" />
+    </entinst>
+    <entinst type="upgrade_body01">
+        <inst name="upgrade_body01" pos="-814.931 148.982 480" />
+    </entinst>
+    <entinst type="upgrade_focus01">
+        <inst name="upgrade_focus01" pos="948.454 125.887 480" />
+    </entinst>
+    <entinst type="upgrade_striking01">
+        <inst name="upgrade_striking01" pos="-500.551 589.303 385.974" />
+    </entinst>
+    <entinst type="blink_portal_loc">
+        <inst extents="-10 -20 0 10 20 60" name="blink_portal_loc" orient="0 0 1.5708" pos="60 1620 361.022" />
+    </entinst>
+    <entinst type="bridge_clip">
+        <inst extents="-120 -52.6505 0 120 52.6505 480" name="bridge_clip" pos="60 2032.65 255.948" />
+    </entinst>
+    <entinst type="sound_training">
+        <inst extents="-6 -6 0 6 6 12" name="sound_training" pos="835.929 1690.82 600" />
+    </entinst>
+    <entinst type="sound_vision">
+        <inst extents="-6 -6 0 6 6 12" name="sound_vision" pos="-606.908 1801.73 600" />
+    </entinst>
+    <entinst type="sky_light01">
+        <inst extents="-6 -6 -6 6 6 6" name="sky_light01" pos="60 -149.509 450" />
+        <inst extents="-6 -6 -6 6 6 6" name="sky_light" pos="60 300 390" />
+    </entinst>
+    <entinst type="player_start_all01">
+        <inst extents="-48.0243 -95.2953 0 71.9757 48.7832 83.9544" name="player_start_all01" orient="0 0 -1.5708" pos="60 1238.38 480" />
+    </entinst>
+    <entinst type="player_start_all02">
+        <inst extents="-48.0243 -95.2953 0 71.9757 48.7832 83.9544" name="player_start_all02" orient="0 0 -1.5708" pos="60 271.988 360" />
+    </entinst>
+    <entinst type="player_start_all04">
+        <inst extents="-48.0243 -95.2953 0 71.9757 48.7832 83.9544" name="player_start_all04" orient="0 0 -1.5708" pos="60 271.988 360" />
+    </entinst>
+    <entinst type="player_start_all05">
+        <inst extents="-48.0243 -95.2953 0 71.9757 48.7832 83.9544" name="player_start_all05" orient="0 0 -1.5708" pos="60 271.988 360" />
+    </entinst>
+    <entinst type="player_start_all03">
+        <inst extents="-48.0242 -95.2953 0 71.9758 48.7832 83.9544" name="player_start_all03" orient="0 0 -1.5708" pos="59.3563 1799.51 360" />
+    </entinst>
+    <entinst type="intro_setup">
+        <inst extents="-6 -6 0 6 6 12" name="intro_setup" pos="176.401 1079.09 480" />
+    </entinst>
+    <entinst type="intro_end">
+        <inst extents="-6 -6 0 6 6 12" name="intro_end" pos="206.809 1079.09 480" />
+    </entinst>
+    <entinst type="replace_pair01">
+        <inst extents="-6 -6 0 6 6 12" name="replace_pair01" pos="58.1348 1680 600" />
+    </entinst>
+    <entinst type="conv_cam">
+        <inst extents="-6 -6 0 6 6 12" name="conv_cam" pos="60 120 480" />
+    </entinst>
+    <entinst type="pick_stance">
+        <inst extents="-6 -6 0 6 6 12" name="pick_stance" pos="61.2446 1239.4 600" />
+    </entinst>
+    <entinst type="trigger_area01">
+        <inst extents="-60 -120 0 60 120 120" name="trigger_area01" pos="852.357 1690.67 480" />
+    </entinst>
+    <entinst type="pickup_cufflinks">
+        <inst extents="-12 -18 0 12 18 60" name="pickup_cufflinks" pos="577.703 505.448 360" />
+    </entinst>
+    <entinst type="waypoint">
+        <inst extents="-6 -6 -6 6 6 6" name="wingfoot_wave" orient="0 0 1.65806" pos="98.2568 337.364 360" />
+        <inst extents="-5.99998 -5.99999 -6 6.00002 6.00001 6" name="exit_cam" orient="0 0 -1.5708" pos="60 661.411 480" />
+        <inst extents="-6.00001 -6 -6 5.99999 6 6" name="exit01" orient="0 0 -1.5708" pos="60 483.962 361" />
+        <inst extents="-5.99996 -5.99997 -6 6.00004 6.00003 6" name="vision_heroact" orient="0 0 1.39626" pos="-606.847 1681.74 480" />
+    </entinst>
+    <entinst type="move_to_stark2">
+        <inst extents="-6 -6.00001 -6 6 5.99999 6" name="move_to_stark2" orient="0 0 1.5708" pos="60 1874.2 360" />
+        <inst extents="-5.99999 -6.00002 -6 6.00001 5.99998 6" name="fury_standingspot01" orient="0 0 -0.872665" pos="-26.9942 907.749 480" />
+        <inst extents="-6 -5.99997 -6 6 6.00003 6" name="bw_spot01" orient="0 0 -3.05433" pos="45.9796 930.017 480" />
+        <inst extents="-6.00003 -5.99999 -6 5.99997 6.00001 6" name="fury_spot04" orient="0 0 -2.18166" pos="161.207 976.727 480" />
+        <inst extents="-6.00001 -6.00001 -6 5.99999 5.99999 6" name="chair_spot01" orient="0 0 0.174533" pos="17.6714 914.985 480" />
+        <inst extents="-5.99997 -6 -6 6.00003 6 6" name="chair_spot02" orient="0 0 1.74533" pos="19.5073 928.825 480" />
+        <inst extents="-6.00001 -6 -6 5.99999 6 6" name="bw_spot04" orient="0 0 -1.5708" pos="60 1080 480" />
+        <inst extents="-5.99998 -6 -6 6.00002 6 6" name="spot_hankpym" orient="0 0 1.5708" pos="-519.334 1508.92 480" />
+        <inst extents="-6 -5.99998 -6.00001 6 6.00002 5.99999" name="chair_spot04" pos="79.2077 938.225 480" />
+        <inst extents="-6 -6.00002 -6 6 5.99998 6" name="bw_camera" orient="0 0 -3.05433" pos="45.9796 942.017 504" />
+        <inst extents="-5.99998 -5.99999 -6 6.00002 6.00001 6" name="chair_spot03" orient="0 0 -1.91986" pos="17.6714 914.985 480" />
+        <inst extents="-6 -6.00003 -6 6 5.99997 6" name="chair_spot05" orient="0 0 0.174533" pos="80.0674 917.458 480" />
+        <inst extents="-6.00003 -6.00002 -6 5.99997 5.99998 6" name="talk_furyspot01" orient="0 0 -2.0944" pos="-59.5486 944.647 480" />
+        <inst extents="-6 -6 -6 6 6 6" name="wp_path_c02" pos="299.941 1450.45 360" />
+        <inst extents="-6 -6 -6 6 6 6" name="wp_path_c03" pos="189.058 1580.64 360" />
+        <inst extents="-6 -6 -6 6 6 6" name="wp_path_c04" pos="-34.1253 1592.15 360" />
+        <inst extents="-6 -6 -6 6 6 6" name="wp_path_c05" pos="-164.316 1441.98 360" />
+        <inst extents="-6 -6 -6 6 6 6" name="wp_path_c06" pos="-416.916 1335.72 360" />
+        <inst extents="-6 -6 -6 6 6 6" name="wp_path_d02" pos="-409.337 1440.77 360" />
+        <inst extents="-6 -6 -6 6 6 6" name="wp_path_d03" pos="-218.99 1531.85 360" />
+        <inst extents="-6 -6 -6 6 6 6" name="wp_path_d04" pos="-64.3273 1670.06 360" />
+        <inst extents="-6 -6 -6 6 6 6" name="wp_path_d05" pos="168.124 1676.59 360" />
+        <inst extents="-6 -6 -6 6 6 6" name="wp_path_d06" pos="345.368 1533.64 360" />
+    </entinst>
+    <entinst type="wp_use_trainmachine01">
+        <inst extents="-6 -6 -6 6 6 6" name="wp_use_trainmachine01" pos="855.772 1685.22 480" />
+    </entinst>
+    <entinst type="wp_fury_pace01">
+        <inst extents="-5.99998 -6.00001 -6 6.00002 5.99999 6" name="wp_fury_pace01" orient="0 0 -2.0944" pos="-0.748276 961.244 480" />
+        <inst extents="-6 -6 -6 6 6 6" name="wp_fury_pace02" pos="117.526 961.244 480" />
+    </entinst>
+    <entinst type="bw_spot02">
+        <inst extents="-6 -6 -6 6 6 6" name="bw_spot02" orient="0 0 -2.26893" pos="115.51 1100.21 480" />
+        <inst extents="-5.99998 -5.99998 -6 6.00002 6.00002 6" name="fury_spot01" orient="0 0 -2.87979" pos="278.064 1163.51 480" />
+        <inst extents="-5.99999 -5.99999 -6 6.00001 6.00001 6" name="fury_spot02" orient="0 0 3.05433" pos="289.152 1129.21 480" />
+        <inst extents="-6 -5.99995 -6 6 6.00005 6" name="fury_spot03" orient="0 0 2.96706" pos="274.242 1091.94 480" />
+        <inst extents="-5.99997 -5.99997 -6 6.00003 6.00003 6" name="bw_spot03" orient="0 0 -0.872664" pos="91.2789 1125.12 480" />
+    </entinst>
+    <entinst type="wp_walker01">
+        <inst extents="-6 -6 -6 6 6 6" name="wp_walker01" pos="-240.502 637.536 360" />
+        <inst extents="-6 -6 -6 6 6 6" name="wp_walker02" pos="-396.384 738.153 360" />
+        <inst extents="-6 -6 -6 6 6 6" name="wp_walker03" pos="-522.78 818.204 360" />
+        <inst extents="-6 -6 -6 6 6 6" name="wp_path_b02" pos="229.064 604.848 360" />
+        <inst extents="-6 -6 -6 6 6 6" name="wp_path_b05" pos="679.411 1036.92 360" />
+        <inst extents="-6 -6 -6 6 6 6" name="wp_path_b04" pos="621.623 778.877 360" />
+        <inst extents="-6 -6 -6 6 6 6" name="wp_path_b03" pos="489.177 689.669 360" />
+        <inst extents="-6 -6 -6 6 6 6" name="wingfoot_look" pos="-1.66653 -78.0392 360" />
+        <inst extents="-5.99995 -6.00001 -6 6.00005 5.99999 6" name="hank_cam" orient="0 0 1.309" pos="-585.125 1528.81 528" />
+        <inst extents="-6.00006 -6.00001 -6 5.99994 5.99999 6" name="hank_heroact" orient="0 0 -0.523599" pos="-594.488 1543.84 480" />
+        <inst extents="-6 -5.99999 -6 6 6.00001 6" name="hank_herowait01" orient="0 0 -1.3687" pos="-565.898 1669.81 480" />
+        <inst extents="-6.00003 -6.00003 -6 5.99997 5.99997 6" name="hank_herowait02" orient="0 0 -1.5708" pos="-536.632 1678.42 480" />
+        <inst extents="-6.00005 -5.99996 -6 5.99995 6.00004 6" name="hank_herowait03" orient="0 0 -1.80007" pos="-506.185 1669.81 480" />
+        <inst extents="-6 -6 -6 6 6 6" name="wp_walker05" pos="-395.613 994.163 360" />
+        <inst extents="-6 -6 -6 6 6 6" name="wp_walker06" pos="-247.437 837.132 360" />
+        <inst extents="-6 -6 -6 6 6 6" name="wp_path_b07" pos="620.625 1168.73 360" />
+        <inst extents="-6 -6 -6 6 6 6" name="wp_path_b08" pos="594.639 1031.95 360" />
+        <inst extents="-6 -6 -6 6 6 6" name="wp_path_b09" pos="455.577 955.167 360" />
+        <inst extents="-6 -6 -6 6 6 6" name="wp_path_b10" pos="363.589 818.734 360" />
+        <inst extents="-6 -6 -6 6 6 6" name="wp_path_b11" pos="278.088 652.6 360" />
+        <inst extents="-5.99996 -6.00005 -6 6.00004 5.99995 6" name="vision_spot" orient="0 0 2.69161" pos="-619.977 1765.38 480" />
+        <inst extents="-6.00002 -5.99998 -6 5.99998 6.00002 6" name="vision_cam" orient="0 0 -0.000460625" pos="-576.705 1739.19 522" />
+    </entinst>
+    <entinst type="wp_walker04">
+        <inst extents="-6 -6 -6 6 6 6" name="wp_walker04" pos="-522.78 949.523 360" />
+        <inst extents="-6 -6 -6 6 6 6" name="wp_path_b01" pos="-54.7515 632.15 360" />
+        <inst extents="-6 -6 -6 6 6 6" name="wp_path_b06" pos="707.975 1166.69 360" />
+        <inst extents="-6 -6 -6 6 6 6" name="wp_path_c01" pos="512.291 1282.13 360" />
+        <inst extents="-6 -6 -6 6 6 6" name="wp_path_c07" pos="-539.461 1211.59 360" />
+        <inst extents="-6 -6 -6 6 6 6" name="wp_walker07" pos="-207.227 708.971 360" />
+    </entinst>
+    <entinst type="wingfoot_heroact">
+        <inst extents="-6 -6 -6 6 6 6" name="wingfoot_heroact" pos="50.9385 119.589 360" />
+        <inst extents="-6 -6 -6 6 6 6" name="wingfoot_herowait01" orient="0 0 -1.74533" pos="19.4146 215.173 360" />
+        <inst extents="-6 -6 -6 6 6 6" name="wingfoot_herowait02" orient="0 0 -1.74533" pos="61.0276 207.905 360" />
+        <inst extents="-6 -6 -6 6 6 6" name="wingfoot_herowait03" orient="0 0 -1.74533" pos="116.349 214.525 360" />
+        <inst extents="-6 -6 -6 6 6 6" name="wingfoot_cam" pos="31.2502 103.45 409" />
+    </entinst>
+    <entinst type="wp_path_d01">
+        <inst extents="-6 -6 -6 6 6 6" name="wp_path_d01" pos="-539.461 1263.67 360" />
+        <inst extents="-6 -6 -6 6 6 6" name="wp_path_d07" pos="559.996 1380.95 360" />
+    </entinst>
+    <entinst type="wp_wait01">
+        <inst extents="-6.00003 -6 -6 5.99997 6 6" name="wp_wait01" orient="0 0 0.872665" pos="781.04 1592.41 480" />
+    </entinst>
+    <entinst type="xtraction_point">
+        <inst name="xtraction_point" pos="60 1740 360" />
+    </entinst>
+    <entinst type="link_stark2">
+        <inst extents="-160 -80 0 160 80 360" name="link_stark2" pos="61.3318 1999.72 360" />
+    </entinst>
+    <entinst type="cufflinks">
+        <inst name="cufflinks" orient="0 0 -2.61799" pos="579.934 510.362 386.1" />
+    </entinst>
+    <entinst type="doors_logo_stk_d_01">
+        <inst name="doors_logo_stk_d_01" pos="60 2328 360" />
+    </entinst>
+    <entinst type="door">
+        <inst name="door" pos="60 2100 360" />
+    </entinst>
+    <entinst type="lift">
+        <inst name="lift" pos="60 483.962 360" />
+    </entinst>
+    <entinst type="hanging_light_01_stk_e">
+        <inst name="hanging_light_01_stk_e" pos="-180 1740 552" />
+        <inst name="hanging_light_01_stk_e" pos="360 60 492" />
+        <inst name="hanging_light_01_stk_e" pos="-240 60 492" />
+        <inst name="hanging_light_01_stk_e" pos="900 600 612" />
+        <inst name="hanging_light_01_stk_e" pos="-780 600 612" />
+        <inst name="hanging_light_01_stk_e" pos="479.999 660 492" />
+        <inst name="hanging_light_01_stk_e" pos="-420 660 492" />
+        <inst name="hanging_light_01_stk_e" pos="660 1380 492" />
+        <inst name="hanging_light_01_stk_e" pos="300 1740 552" />
+        <inst name="hanging_light_01_stk_e" orient="0 0 1.5708" pos="60 1140 612" />
+        <inst name="hanging_light_01_stk_e" orient="0 0 -3.13985" pos="-540 1380 492" />
+    </entinst>
+    <entinst type="mission_review_machine_stk_a01">
+        <inst name="mission_review_machine_stk_a01" pos="304.33 1245.93 480" />
+    </entinst>
+    <entinst type="mission_training">
+        <inst name="mission_training" orient="0 0 -1.5708" pos="866.145 1680 480" />
+    </entinst>
+    <entinst type="mission_trivia">
+        <inst name="mission_trivia" orient="0 0 1.13446" pos="-656.178 1780.95 480" />
+    </entinst>
+    <entinst type="pillar_01_20ft_stk_e02">
+        <inst name="pillar_01_20ft_stk_e02" orient="0 0 -1.5708" pos="-967.073 71.6884 238" />
+        <inst name="pillar_01_20ft_stk_e02" pos="-420.534 -4.12732 238" />
+        <inst name="pillar_01_20ft_stk_e02" pos="-653.934 -4.12732 238" />
+        <inst name="pillar_01_20ft_stk_e02" orient="0 0 -1.5708" pos="-967.073 300.966 238" />
+        <inst name="pillar_01_20ft_stk_e02" orient="0 0 -1.5708" pos="-967.073 992.36 238" />
+        <inst name="pillar_01_20ft_stk_e02" pos="-886.715 -4.12732 238" />
+        <inst name="pillar_01_20ft_stk_e02" orient="0 0 -1.5708" pos="-967.073 531.428 238" />
+        <inst name="pillar_01_20ft_stk_e02" pos="549.308 -4.12732 238" />
+        <inst name="pillar_01_20ft_stk_e02" pos="1015.49 -4.12732 238" />
+        <inst name="pillar_01_20ft_stk_e02" orient="0 0 1.5708" pos="1084.99 992.36 238" />
+        <inst name="pillar_01_20ft_stk_e02" orient="0 0 1.5708" pos="1084.99 531.428 238" />
+        <inst name="pillar_01_20ft_stk_e02" orient="0 0 1.5708" pos="1084.99 300.966 238" />
+        <inst name="pillar_01_20ft_stk_e02" orient="0 0 -1.5708" pos="-967.073 762.924 238" />
+        <inst name="pillar_01_20ft_stk_e02" orient="0 0 1.5708" pos="1084.99 71.6884 238" />
+        <inst name="pillar_01_20ft_stk_e02" pos="782.088 -4.12732 238" />
+        <inst name="pillar_01_20ft_stk_e02" orient="0 0 1.5708" pos="1084.99 762.924 238" />
+    </entinst>
+    <entinst type="pillar_01_35ft_stk_e11">
+        <inst name="pillar_01_35ft_stk_e11" orient="0 0 -1.5708" pos="-989.668 1410.96 238" />
+        <inst name="pillar_01_35ft_stk_e11" pos="319.398 295.011 360" />
+        <inst name="pillar_01_35ft_stk_e11" orient="0 0 -1.5708" pos="-989.668 1970.71 238" />
+        <inst name="pillar_01_35ft_stk_e11" orient="0 0 -1.5708" pos="-989.668 1636.53 238" />
+        <inst name="pillar_01_35ft_stk_e11" orient="0 0 1.5708" pos="1114.47 1636.53 238" />
+        <inst name="pillar_01_35ft_stk_e11" orient="0 0 1.5708" pos="1114.47 1410.96 238" />
+        <inst name="pillar_01_35ft_stk_e11" pos="-199.172 295.011 360" />
+        <inst name="pillar_01_35ft_stk_e11" orient="0 0 1.5708" pos="1114.47 1970.71 238" />
+    </entinst>
+    <entinst type="pillar_02_20ft_stk_e">
+        <inst name="pillar_02_20ft_stk_e" orient="0 0 -3.14159" pos="-302.271 539.673 360" />
+        <inst name="pillar_02_20ft_stk_e" orient="0 0 1.5708" pos="660.702 1443.79 360" />
+        <inst name="pillar_02_20ft_stk_e" orient="0 0 1.5708" pos="720.702 1916.21 360" />
+        <inst name="pillar_02_20ft_stk_e" orient="0 0 1.5708" pos="-543.806 1443.79 360" />
+        <inst name="pillar_02_20ft_stk_e" orient="0 0 -3.14159" pos="417.729 539.673 360" />
+    </entinst>
+    <entinst type="pillar_02_20ft_stk_e02">
+        <inst name="pillar_02_20ft_stk_e02" orient="0 0 1.5708" pos="-543.806 1916.21 360" />
+    </entinst>
+    <entinst type="pillar_square_40ft_stk_e">
+        <inst name="pillar_square_40ft_stk_e" pos="-420 900 360" />
+        <inst name="pillar_square_40ft_stk_e" pos="780 1380 360" />
+        <inst name="pillar_square_40ft_stk_e" pos="-960 1120 240" />
+        <inst name="pillar_square_40ft_stk_e" pos="1080 1116.59 240" />
+        <inst name="pillar_square_40ft_stk_e" pos="-660 1380 360" />
+        <inst name="pillar_square_40ft_stk_e" pos="-300 1620 360" />
+        <inst name="pillar_square_40ft_stk_e" pos="540 900 360" />
+    </entinst>
+    <entinst type="pillar_square_40ft_stk_e06">
+        <inst name="pillar_square_40ft_stk_e06" pos="420 1620 360" />
+    </entinst>
+    <entinst type="planter_long_stk_e">
+        <inst name="planter_long_stk_e" pos="-537.21 -50.9677 240" />
+        <inst name="planter_long_stk_e" pos="662.741 -50.9677 240" />
+        <inst name="planter_long_stk_e" pos="898.813 -50.9677 240" />
+        <inst name="planter_long_stk_e" orient="0 0 1.5708" pos="1129.79 185.192 240" />
+        <inst name="planter_long_stk_e" orient="0 0 1.5708" pos="1129.79 415.705 240" />
+        <inst name="planter_long_stk_e" orient="0 0 1.5708" pos="1129.79 646.219 240" />
+        <inst name="planter_long_stk_e" orient="0 0 1.5708" pos="1129.79 876.733 240" />
+        <inst name="planter_long_stk_e" orient="0 0 1.5708" pos="1025.08 1530.19 360" />
+        <inst name="planter_long_stk_e" orient="0 0 1.5708" pos="1129.79 1795.21 240" />
+        <inst name="planter_long_stk_e" orient="0 0 -1.5708" pos="-897.014 402.399 480" />
+        <inst name="planter_long_stk_e" orient="0 0 -1.5708" pos="-897.014 618.403 480" />
+        <inst name="planter_long_stk_e" pos="-773.282 -50.9677 240" />
+        <inst name="planter_long_stk_e" orient="0 0 1.5708" pos="-660.287 833.759 480" />
+        <inst name="planter_long_stk_e" orient="0 0 -1.5708" pos="735.536 754.906 360" />
+        <inst name="planter_long_stk_e" orient="0 0 1.5708" pos="-613.873 756.607 360" />
+        <inst name="planter_long_stk_e" orient="0 0 -1.5708" pos="-1011.32 186.675 240" />
+        <inst name="planter_long_stk_e" orient="0 0 -1.5708" pos="-897.014 182.582 480" />
+        <inst name="planter_long_stk_e" orient="0 0 -1.5708" pos="-900 1854.18 360" />
+        <inst name="planter_long_stk_e" orient="0 0 -1.5708" pos="-900 1518.78 360" />
+        <inst name="planter_long_stk_e" orient="0 0 -1.5708" pos="-900 1299.95 360" />
+        <inst name="planter_long_stk_e" orient="0 0 1.5708" pos="1017.72 828.757 480" />
+        <inst name="planter_long_stk_e" orient="0 0 -1.5708" pos="784.765 835.242 480" />
+        <inst name="planter_long_stk_e" pos="901.617 59.6817 480" />
+        <inst name="planter_long_stk_e" pos="699.84 59.6817 480" />
+        <inst name="planter_long_stk_e" orient="0 0 -1.5708" pos="-1011.32 417.188 240" />
+        <inst name="planter_long_stk_e" orient="0 0 -1.5708" pos="-1011.32 647.702 240" />
+        <inst name="planter_long_stk_e" orient="0 0 -1.5708" pos="-1011.32 878.215 240" />
+        <inst name="planter_long_stk_e" orient="0 0 -1.5708" pos="-1011.32 1524.4 240" />
+        <inst name="planter_long_stk_e" orient="0 0 -1.5708" pos="-1011.32 1796.7 240" />
+        <inst name="planter_long_stk_e" orient="0 0 -1.5708" pos="-897.014 830.24 480" />
+        <inst name="planter_long_stk_e" orient="0 0 1.5708" pos="1025.08 1311.36 360" />
+        <inst name="planter_long_stk_e" orient="0 0 1.5708" pos="1017.72 616.92 480" />
+        <inst name="planter_long_stk_e" orient="0 0 1.5708" pos="1017.72 400.916 480" />
+        <inst name="planter_long_stk_e" orient="0 0 1.5708" pos="1017.72 181.099 480" />
+        <inst name="planter_long_stk_e" pos="-578.787 59.6817 480" />
+        <inst name="planter_long_stk_e" orient="0 0 1.5708" pos="1129.79 1522.92 240" />
+        <inst name="planter_long_stk_e" pos="-780.564 59.6817 480" />
+        <inst name="planter_long_stk_e" orient="0 0 1.5708" pos="1025.08 1871.69 360" />
+    </entinst>
+    <entinst type="statue_15ft_stk_e06">
+        <inst name="statue_15ft_stk_e06" orient="0 0 0.785398" pos="1088.56 -3.08759 240" />
+        <inst name="statue_15ft_stk_e06" orient="0 0 -0.785398" pos="-981.175 -26.5009 240" />
+        <inst name="statue_15ft_stk_e06" orient="0 0 -0.785398" pos="-655.354 271.405 480" />
+        <inst name="statue_15ft_stk_e06" orient="0 0 0.785398" pos="808.781 306.656 480" />
+        <inst name="statue_15ft_stk_e06" pos="421.019 2054.29 360" />
+        <inst name="statue_15ft_stk_e06" pos="-298.981 2054.29 360" />
+    </entinst>
+    <entinst type="bridge_railing">
+        <inst name="bridge_railing" pos="60 2100 360" />
+    </entinst>
+    <entinst type="bridge">
+        <inst name="bridge" pos="60 1915.66 360" />
+    </entinst>
+    <entinst type="waterfall">
+        <inst name="waterfall" pos="60 2102 360" />
+    </entinst>
+    <entinst type="blackwindow_chair">
+        <inst name="blackwindow_chair" orient="0 0 -0.261799" pos="17.6714 914.985 480" />
+        <inst name="hero_chair" pos="79.2077 921.63 480" />
+    </entinst>
+    <entity actcountremove="1" character="BlackWidow" classname="monsterspawnerent" instantspawn="true" monster_actonuse="true" monster_actscript="act1/stark/talk_blackwidow01" monster_name="blackwindow" monster_spawnexactlocation="true" monster_spawnscript="act1/stark/sc_blackwidow" name="sp_blackwidow01" nocollide="true" />
+    <entity actcountremove="1" character="HankPym" classname="monsterspawnerent" instantspawn="true" monster_actonuse="true" monster_actscript="act1/stark/talk_pym01" monster_name="hank" monster_spawnexactlocation="true" monster_spawnscript="act1/stark/sc_pym" name="sp_hankpym01" nocollide="true" />
+    <entity actcountremove="1" character="NickFuryNPC" classname="monsterspawnerent" instantspawn="true" monster_actonuse="true" monster_actscript="act1/stark/talk_fury01" monster_name="fury" monster_noaidisable="true" monster_spawnexactlocation="true" monster_spawnscript="act1/stark/sc_fury" name="sp_nickfurynpc01" nocollide="true" />
+    <entity actcountremove="1" character="OfficeWorkerFemale" classname="monsterspawnerent" monster_name="talker" monster_noaidisable="true" monster_smartent="false" monster_spawnexactlocation="true" monster_spawnscript="act1/stark/ss_talking" name="sp_talker26" nocollide="true" smartent="false" />
+    <entity character="OfficeWorkerFemale" classname="monsterspawnerent" monster_name="talker" monster_noaidisable="true" monster_smartent="false" monster_spawnexactlocation="true" monster_spawnscript="act1/stark/ss_talking" name="sp_talker06" nocollide="true" smartent="false" />
+    <entity actcountremove="1" character="OfficeWorkerFemale" classname="monsterspawnerent" instantspawn="true" monster_name="path_c" monster_noaidisable="true" monster_smartent="false" monster_spawnexactlocation="true" name="sp_walker02" nocollide="true" smartent="false" />
+    <entity actcountremove="1" character="OfficeWorkerFemale_b" classname="monsterspawnerent" monster_name="talker" monster_noaidisable="true" monster_smartent="false" monster_spawnexactlocation="true" monster_spawnscript="act1/stark/ss_talking" name="sp_talker23" nocollide="true" smartent="false" />
+    <entity character="OfficeWorkerFemale_b" classname="monsterspawnerent" monster_name="talker" monster_noaidisable="true" monster_smartent="false" monster_spawnexactlocation="true" monster_spawnscript="act1/stark/ss_talking" name="sp_talker11" nocollide="true" smartent="false" />
+    <entity actcountremove="1" character="OfficeWorkerFemale_b" classname="monsterspawnerent" firstact="5" instantspawn="true" monster_name="use_trainmachine" monster_smartent="true" name="sp_officeworkerfemale_b01" nocollide="true" />
+    <entity actcountremove="1" character="OfficeWorkerFemale_c" classname="monsterspawnerent" monster_name="talker" monster_noaidisable="true" monster_smartent="false" monster_spawnexactlocation="true" monster_spawnscript="act1/stark/ss_talking" name="sp_talker28" nocollide="true" smartent="false" />
+    <entity character="OfficeWorkerFemale_c" classname="monsterspawnerent" monster_name="talker" monster_noaidisable="true" monster_smartent="false" monster_spawnexactlocation="true" monster_spawnscript="act1/stark/ss_talking" name="sp_talker02" nocollide="true" smartent="false" />
+    <entity character="OfficeWorkerMale" classname="monsterspawnerent" monster_name="talker" monster_noaidisable="true" monster_smartent="false" monster_spawnexactlocation="true" monster_spawnscript="act1/stark/ss_talking" name="sp_talker09" nocollide="true" smartent="false" />
+    <entity actcountremove="1" character="OfficeWorkerMale" classname="monsterspawnerent" instantspawn="true" monster_name="walker" monster_noaidisable="true" monster_smartent="false" monster_spawnexactlocation="true" monster_spawnscript="act1/stark/sc_walker" name="sp_walker01" nocollide="true" smartent="false" />
+    <entity actcountremove="1" character="OfficeWorkerMale" classname="monsterspawnerent" monster_name="talker" monster_noaidisable="true" monster_smartent="false" monster_spawnexactlocation="true" monster_spawnscript="act1/stark/ss_talking" name="sp_talker27" nocollide="true" smartent="false" />
+    <entity character="OfficeWorkerMale_c" classname="monsterspawnerent" monster_name="talker" monster_noaidisable="true" monster_smartent="false" monster_spawnexactlocation="true" monster_spawnscript="act1/stark/ss_talking" name="sp_talker07" nocollide="true" smartent="false" />
+    <entity actcountremove="1" character="OfficeWorkerMale_c" classname="monsterspawnerent" monster_name="talker" monster_noaidisable="true" monster_smartent="false" monster_spawnexactlocation="true" monster_spawnscript="act1/stark/ss_talking" name="sp_talker22" nocollide="true" smartent="false" />
+    <entity actcountremove="1" character="OfficeWorkerMale_d" classname="monsterspawnerent" monster_name="talker" monster_noaidisable="true" monster_smartent="false" monster_spawnexactlocation="true" monster_spawnscript="act1/stark/ss_talking" name="sp_talker04" nocollide="true" smartent="false" />
+    <entity character="OfficeWorkerMale_d" classname="monsterspawnerent" monster_name="talker" monster_noaidisable="true" monster_smartent="false" monster_spawnexactlocation="true" monster_spawnscript="act1/stark/ss_talking" name="sp_talker14" nocollide="true" smartent="false" />
+    <entity actcountremove="1" acttargets="sound_vision" character="Vision" classname="monsterspawnerent" instantspawn="true" monster_actonuse="true" monster_actscript="act1/stark/talk_vision01" monster_acttargets="sound_vision" monster_name="vision" monster_noaidisable="true" monster_spawnexactlocation="true" monster_spawnscript="act1/stark/sc_vision" name="sp_vision01" nocollide="true" />
+    <entity actcountremove="1" character="WyattWingfoot" classname="monsterspawnerent" instantspawn="true" monster_actonuse="true" monster_actscript="act1/stark/talk_wingfoot01" monster_hinttype="importanttalk" monster_name="wingfoot" monster_spawnexactlocation="true" monster_spawnscript="act1/stark/sc_wingfoot" name="sp_wyattwingfoot01" nocollide="true" />
+    <entity actcountremove="1" actdistance="60" acteffect="base/misc/techstation_focus" actleader="true" actmatchteam="true" actonuse="true" actscript="permanentStatBoost('_ACTIVATOR_','body')" actsound="zone_shared/object/techstation" animstarton="true" classname="rememberent" description="Pick up body upgrade" idnum="8" material="solid_metal" model="pickups/body_pickup" name="upgrade_body01" nocollide="true" nopickup="true" nopush="true" quickuse="true" randompickups="0" structure="2" team="hero" variablename="r_upgrade_b" />
+    <entity actcountremove="1" actdistance="60" acteffect="base/misc/techstation_focus" actleader="true" actmatchteam="true" actonuse="true" actscript="permanentStatBoost('_ACTIVATOR_','focus')" actsound="zone_shared/object/techstation" animstarton="true" classname="rememberent" description="Pick up focus upgrade" idnum="9" material="solid_metal" model="pickups/focus_pickup" name="upgrade_focus01" nocollide="true" nopickup="true" nopush="true" quickuse="true" randompickups="0" structure="2" team="hero" variablename="r_upgrade_f" />
+    <entity actcountremove="1" actdistance="60" acteffect="base/misc/techstation_focus" actleader="true" actmatchteam="true" actonuse="true" actscript="permanentStatBoost('_ACTIVATOR_','striking')" actsound="zone_shared/object/techstation" animstarton="true" classname="rememberent" description="Pick up striking upgrade" idnum="9" material="solid_metal" model="pickups/striking_pickup" name="upgrade_striking01" nocollide="true" nopickup="true" nopush="true" quickuse="true" randompickups="0" structure="2" team="hero" variablename="r_upgrade_s" />
+    <entity boxcollision="true" classname="gameent" name="bridge_clip" nocollide="false" smartent="false" />
+    <entity actsoundloop="zone_shared/stark/trivia_console_loop" classname="actionent" name="sound_vision" nocollide="true" smartent="false" toggleonact="true" />
+    <entity actsound="zone_shared/stark/keyboard_loop" classname="actionent" name="sound_training" nocollide="true" smartent="false" toggleonact="true" />
+    <entity classname="ent" name="sky_light01" nocollide="true" smartent="false" />
+    <entity allinone="true" classname="playerstartent" name="player_start_all03" nocollide="true" prevlink="link_stark1" prevzone="stark2" />
+    <entity allinone="true" classname="playerstartent" name="player_start_all05" nocollide="true" prevlink="link_mandarin1" prevzone="act1/mandarin/mandarin1" />
+    <entity allinone="true" classname="playerstartent" name="player_start_all04" nocollide="true" prevlink="link_stark1" prevzone="act1/omega/omega1b" />
+    <entity allinone="true" classname="playerstartent" name="player_start_all02" nocollide="true" prevlink="link_atlantis1" prevzone="act1/atlantis/atlantis1" />
+    <entity allinone="true" classname="playerstartent" default="true" name="player_start_all01" nocollide="true" smartent="false" />
+    <entity actscript="act1/stark/talk_fury01b" classname="actionent" name="intro_end" nocollide="true" smartent="false" />
+    <entity actscript="act1/stark/intro_setup" classname="actionent" name="intro_setup" nocollide="true" smartent="false" />
+    <entity actscript="common/tc_pick_stance" classname="physent" health="1" name="pick_stance" nocollide="true" nogravity="true" nopickup="true" smartent="false" structure="2" />
+    <entity actscript="common/conv/conversation_camera" classname="physent" health="1" name="conv_cam" nocollide="true" nodistancecull="true" nogravity="true" nopickup="true" smartent="false" structure="2" />
+    <entity actcountremove="2" actrescheduledelay="0.25" actrescheduledelaymin="0.25" actscript="act1/stark/rand_npcs" classname="physent" firstact="0.1" health="1" name="replace_pair01" nocollide="true" nogravity="true" nopickup="true" smartent="false" structure="2" />
+    <entity actleader="true" actmatchteam="true" actscript="act1/stark/move_outway" boxcollision="true" classname="scripttriggerent" deactscript="act1/stark/move_in" name="trigger_area01" nocollide="true" team="hero" />
+    <entity actcountremove="1" actonuse="true" actscript="act1/stark/pickup_cufflinks" actsound="common/game/pickup_item" boxcollision="true" classname="gameent" description="Tony Stark's Cufflinks" name="pickup_cufflinks" nocollide="true" quickuse="true" smartent="false" startenabled="true" team="none" />
+    <entity actscript="faceEntity('_ACTIVATOR_', '_ACTIVE_HERO_')" beeline="true" classname="waypointent" name="wp_wait01" nocollide="true" speed="0.3" />
+    <entity actscript="act1/stark/choose_path" classname="waypointent" name="wp_path_d01" nocollide="true" smartent="false" speed="0.4" />
+    <entity beeline="true" classname="waypointent" name="wingfoot_heroact" nocollide="true" speed="0.4" />
+    <entity actscript="act1/stark/choose_path" beeline="true" classname="waypointent" name="wp_walker04" nocollide="true" smartent="false" speed="0.4" />
+    <entity beeline="true" classname="waypointent" name="wp_walker01" nocollide="true" smartent="false" speed="0.4" />
+    <entity classname="waypointent" name="bw_spot02" nocollide="true" speed="0.4" />
+    <entity classname="waypointent" name="wp_fury_pace01" nocollide="true" smartent="false" speed="0.3" />
+    <entity actscript="act1/stark/use_training_machine" acttargets="sound_training" beeline="true" classname="waypointent" name="wp_use_trainmachine01" nocollide="true" speed="0.3" />
+    <entity classname="waypointent" name="move_to_stark2" nocollide="true" smartent="false" speed="0.4" />
+    <entity actcountremove="1" acteffect="base/misc/extraction_burst" actleader="true" actmatchteam="true" actontouch="true" actscript="common/extraction/exp_trig" actsound="common/game/extraction" actteamplayer="true" acttogglesloopfx="true" boxcollision="true" classname="gameent" extent="-120 -120 0 120 120 72" fxlevel="2" loopfx="base/misc/extraction_loop" loopfxstarton="true" name="expt_trig" nocollide="true" nogravity="true" nopickup="true" nopush="true" persistent="false" resetstate="true" team="hero" />
+    <entity actinactivedelay="2" actleader="true" actmatchteam="true" actonuse="true" boxcollision="true" classname="zonelinkent" description="Iron Man Lab" name="link_stark2" nextzone="stark2" nocollide="false" quickuse="true" smartent="false" startenabled="false" team="hero" />
+    <entity actscript="act1/stark/pickup_cufflinks" actsound="common/game/pickup_item" classname="physent" description="Tony Stark's Cufflinks" hinttype="objective" material="solid_metal" model="stark/cufflinks_stk_e" name="cufflinks" nogravity="true" nopickup="true" nopush="true" quickuse="true" smartent="false" startenabled="false" structure="2" />
+    <entity actcountdisable="1" actonuse="true" autoclosedelay="0" classname="doorent" material="solid_metal" model="stark/doors_logo_stk_d" name="door" nogravity="true" nopickup="true" nopush="true" randompickups="0" smartent="false" structure="2" toggleonact="true" />
+    <entity actcountdisable="1" actonuse="false" autoclosedelay="0" classname="doorent" material="solid_metal" model="stark/doors_logo_stk_d" name="doors_logo_stk_d_01" nodistancecull="true" nogravity="true" nopickup="true" nopush="true" randompickups="0" smartent="false" structure="2" toggleonact="true" />
+    <entity classname="moverent" material="solid_metal" model="stark/elevator_lift_stk_m" move="0 0 240" moveduration="3" name="lift" nogravity="true" nopickup="true" nopush="true" nostep="true" pathignore="true" randompickups="0" smartent="false" structure="2" toggleonact="true" />
+    <entity actonuse="true" actscript="common/review_menu" actsound="zone_shared/object/console_fighter" classname="physent" description="Review Computer" hinttype="usetoggle" material="solid_metal" model="stark/mission_review_machine_stk_a" name="mission_review_machine_stk_a01" nogravity="true" nopickup="true" nopush="true" randompickups="0" structure="2" />
+    <entity actonuse="true" actscript="common/review_dangerroom" actsound="zone_shared/object/console_fighter" classname="physent" description="Training Simulator" hinttype="usetoggle" material="solid_metal" model="stark/mission_training_machine_stk_a" name="mission_training" nogravity="true" nopickup="true" nopush="true" randompickups="0" smartent="false" structure="2" />
+    <entity actonuse="true" actscript="common/review_trivia" actsound="zone_shared/object/console_fighter" classname="physent" description="Trivia Game" hinttype="usetoggle" material="solid_metal" model="stark/mission_trivia_machine_stk_a" name="mission_trivia" nogravity="true" nopickup="true" nopush="true" randompickups="0" smartent="false" structure="2" />
+    <entity camerafadeout="true" classname="physent" material="solid_metal" model="stark/pillar_01_20ft_stk_e" name="pillar_01_20ft_stk_e02" nogravity="true" nopickup="true" nopush="true" pathignore="true" randompickups="0" structure="2" />
+    <entity camerafadeout="true" classname="physent" material="solid_metal" model="stark/pillar_01_35ft_stk_e" name="pillar_01_35ft_stk_e11" nogravity="true" nopickup="true" nopush="true" pathignore="true" structure="2" />
+    <entity camerafadeout="true" classname="physent" material="solid_metal" model="stark/pillar_02_20ft_stk_e" name="pillar_02_20ft_stk_e02" nogravity="true" nopickup="true" nopush="true" randompickups="0" structure="2" />
+    <entity camerafadeout="true" classname="physent" material="solid_metal" model="stark/pillar_square_40ft_stk_e" name="pillar_square_40ft_stk_e06" nodistancecull="true" nogravity="true" nopickup="true" nopush="true" smartent="false" structure="2" />
+    <entity camerafadeout="true" classname="physent" material="solid_metal" model="stark/statue_15ft_stk_e" name="statue_15ft_stk_e06" nogravity="true" nopickup="true" nopush="true" pathignore="true" randompickups="0" structure="2" />
+    <entity actonuse="true" actscript="act1/stark/open_bridge" classname="physent" description="Iron Man Lab" hinttype="objective" material="solid_metal" model="stark/waterfall_bridge_railing_stk_a" name="bridge_railing" nogravity="true" nopickup="true" nopush="true" randompickups="0" resetstate="true" smartent="false" startenabled="false" structure="2" />
+    <entity actsound="zone_shared/stark/to_lair" classname="moverent" material="solid_metal" model="stark/waterfall_bridge_stk_m" move="0 120 0" moveduration="1" name="bridge" nogravity="true" nopickup="true" nopush="true" nostep="true" pathignore="true" randompickups="0" resetstate="true" smartent="false" structure="2" toggleonact="true" />
+    <entity animstarton="true" classname="physent" material="none" model="stark/waterfall_stk_a" name="waterfall" nogravity="true" nopickup="true" nopush="true" randompickups="0" smartent="false" spawnsoundloop="zone_shared/stark/waterfall" structure="2" />
+    <entity classname="physent" material="solid_metal" model="stark/work_chair_01_stk_e" name="blackwindow_chair" nogravity="true" nopickup="true" nopush="true" smartent="false" structure="2" />
+</world>
