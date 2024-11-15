@@ -60,12 +60,6 @@
     <entity actcountremove="1" character="BlackWidow" classname="monsterspawnerent" name="sp_blackwidow" nocollide="true" />
     <entity actcountremove="1" character="HankPym" classname="monsterspawnerent" name="sp_hankpym" nocollide="true" />
     <entity actcountremove="1" character="NickFuryNPC" classname="monsterspawnerent" name="sp_nickfurynpc" nocollide="true" />
-    <entity actcountremove="1" character="OfficeWorkerFemale" classname="monsterspawnerent" name="sp_officeworkerfemale" nocollide="true" />
-    <entity actcountremove="1" character="OfficeWorkerFemale_b" classname="monsterspawnerent" name="sp_officeworkerfemale_b" nocollide="true" />
-    <entity actcountremove="1" character="OfficeWorkerFemale_c" classname="monsterspawnerent" name="sp_officeworkerfemale_c" nocollide="true" />
-    <entity actcountremove="1" character="OfficeWorkerMale" classname="monsterspawnerent" name="sp_officeworkermale" nocollide="true" />
-    <entity actcountremove="1" character="OfficeWorkerMale_c" classname="monsterspawnerent" name="sp_officeworkermale_c" nocollide="true" />
-    <entity actcountremove="1" character="OfficeWorkerMale_d" classname="monsterspawnerent" name="sp_officeworkermale_d" nocollide="true" />
     <entity actcountremove="1" character="Vision" classname="monsterspawnerent" name="sp_vision" nocollide="true" />
     <entity actcountremove="1" character="WyattWingfoot" classname="monsterspawnerent" name="sp_wyattwingfoot" nocollide="true" />
     <entity actcountremove="1" acteffect="base/item/item_pickup" actmatchteam="true" actonuse="true" actscript="waittimed (0.5)\n\rimageViewer('textures/concept/concept01.png')" actsound="common/game/concept_art_pickup" animstarton="true" classname="rememberent" description="Sketch Book" fxlevel="7" idnum="1" ignoreactorsonmove="true" loopfx="base/item/item_sparkle" loopfxstarton="true" model="pickups/sketchpad" name="concept_art1" nocollide="true" nopickup="true" nopush="true" quickuse="true" spinpossible="false" structure="2" team="hero" variablename="r_c_art" />

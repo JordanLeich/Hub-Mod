@@ -47,8 +47,8 @@
     <stats characteranims="154_edwin_jarvis" charactername="Jarvis" name="Jarvis" skin="15401"/>
     <stats characteranims="123_jean_grey" charactername="Jean Grey" name="JeanGrey" skin="12301"/>
     <stats characteranims="73_karnac" charactername="Karnak" name="Karnac" skin="7301"/>
-    <stats characteranims="74_lab_technician_male" charactername="Lab Technician" name="LabTechnician" skin="7401"/>
-    <stats characteranims="75_lab_technician_female" charactername="Lab Technician" name="LabTechnicianFemale" skin="7501"/>
+    <stats characteranims="74_lab_technician_male" charactername="Lab Technician" name="LabTechnician" skin="1301"/>
+    <stats characteranims="75_lab_technician_female" charactername="Lab Technician" name="LabTechnicianFemale" skin="2201"/>
     <stats characteranims="24_lilandra" charactername="Princess Lilandra" name="Lilandra" skin="2401"/>
     <stats characteranims="95_lockjaw" charactername="Lockjaw" name="Lockjaw" scale_factor="1.6" skin="9501"/>
     <stats characteranims="157_luke_cage" charactername="Luke Cage" name="LukeCageNPC" scale_factor="1.15" skin="15701"/>
@@ -71,11 +71,11 @@
     <stats characteranims="47_Nightcrawler" charactername="Nightcrawler" name="Nightcrawler" skin="4701"/>
     <stats characteranims="49_odin" charactername="Odin" name="Odin" skin="4901"/>
     <stats characteranims="158_OfficeWorkerMale" charactername="Office Worker" name="OfficeWorkerMale" skin="1503"/>
-    <stats characteranims="158_OfficeWorkerMale" charactername="Office Worker" name="OfficeWorkerMale_b" skin="2001"/>
+    <stats characteranims="158_OfficeWorkerMale" charactername="Office Worker" name="OfficeWorkerMale_b" skin="0501"/>
     <stats characteranims="158_OfficeWorkerMale" charactername="Office Worker" name="OfficeWorkerMale_c" skin="0701"/>
     <stats characteranims="158_OfficeWorkerMale" charactername="Office Worker" name="OfficeWorkerMale_d" skin="1001"/>
-    <stats characteranims="159_OfficeWorkerFemale" charactername="Office Worker" name="OfficeWorkerFemale" skin="1401"/>
-    <stats characteranims="159_OfficeWorkerFemale" charactername="Office Worker" name="OfficeWorkerFemale_b" skin="0401"/>
+    <stats characteranims="159_OfficeWorkerFemale" charactername="Office Worker" name="OfficeWorkerFemale" skin="0401"/>
+    <stats characteranims="159_OfficeWorkerFemale" charactername="Office Worker" name="OfficeWorkerFemale_b" skin="2001"/>
     <stats characteranims="159_OfficeWorkerFemale" charactername="Office Worker" name="OfficeWorkerFemale_c" skin="1201"/>
     <stats characteranims="159_OfficeWorkerFemale" charactername="Office Worker" name="OfficeWorkerFemale_d" skin="17004"/>
     <stats characteranims="39_ProfessorX" charactername="Professor X" name="ProfessorNPC" skin="3901"/>
