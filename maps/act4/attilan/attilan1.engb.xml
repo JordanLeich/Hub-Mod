@@ -94,19 +94,15 @@
     </entinst>
     <entinst type="sp_attilancivilian08">
         <inst extents="-12 -18 0 36 18 84" name="sp_attilancivilian08" orient="0 0 -1.57477" pos="-554.775 92.3207 8" />
-        <inst extents="-12 -18 0 36 18 84" name="sp_attilancivilian08" orient="0 0 0.0116555" pos="-89.4552 588.941 8" />
-        <inst extents="-12 -18 0 36 18 84" name="sp_attilancivilian08" orient="0 0 2.53073" pos="-631.374 434.415 8" />
     </entinst>
     <entinst type="sp_attilancivilian18">
         <inst extents="-12 -18 0 36 18 84" name="sp_attilancivilian18" orient="0 0 -1.57477" pos="-363.677 141.623 46.0129" />
     </entinst>
     <entinst type="sp_attilancivilian16">
         <inst extents="-12 -18 0 36 18 84" name="sp_attilancivilian16" orient="0 0 -0.0701337" pos="50.0472 527.593 6" />
-        <inst extents="-12 -18 0 36 18 84" name="sp_attilancivilian16" orient="0 0 0.762055" pos="418.461 -362.678 6" />
     </entinst>
     <entinst type="sp_attilancivilian12">
         <inst extents="-12 -18 0 36 18 84" name="sp_attilancivilian12" orient="0 0 -2.24793" pos="459.253 -316.937 8" />
-        <inst extents="-12 -18 0 36 18 84" name="sp_attilancivilian12" orient="0 0 2.93786" pos="92.9279 512.348 8" />
     </entinst>
     <entinst type="sp_attilancivilian02">
         <inst extents="-12 -18 0 36 18 84" name="sp_attilancivilian02" orient="0 0 -0.907619" pos="624.076 325.656 10" />
@@ -442,12 +438,9 @@
         <inst name="shuttle" pos="5.16135 -432.148 0" />
     </entinst>
     <entity actcountremove="1" character="AttilanCivilian" classname="monsterspawnerent" instantspawn="true" monster_smartent="true" monster_spawnexactlocation="true" monster_spawnscript="act4/attilan/sc_civilian3" name="sp_attilancivilian03" nocollide="true" />
-    <entity actcountremove="1" character="AttilanCivilian" classname="monsterspawnerent" instantspawn="true" monster_smartent="true" monster_spawnexactlocation="true" monster_spawnscript="act4/attilan/sc_civilian2" name="sp_attilancivilian14" nocollide="true" />
     <entity actcountremove="1" character="AttilanCivilian_b" classname="monsterspawnerent" instantspawn="true" monster_smartent="true" monster_spawnexactlocation="true" monster_spawnscript="act4/attilan/random_talk" name="sp_attilancivilian08" nocollide="true" />
     <entity actcountremove="1" character="AttilanCivilian_c" classname="monsterspawnerent" instantspawn="true" monster_smartent="true" monster_spawnexactlocation="true" monster_spawnscript="act4/attilan/sc_civilian2" name="sp_attilancivilian16" nocollide="true" />
-    <entity actcountremove="1" character="AttilanCivilian_c" classname="monsterspawnerent" instantspawn="true" monster_name="walker" monster_noaidisable="true" monster_spawnexactlocation="true" name="sp_attilancivilian18" nocollide="true" />
     <entity actcountremove="1" character="AttilanCivilian_d" classname="monsterspawnerent" instantspawn="true" monster_smartent="true" monster_spawnexactlocation="true" monster_spawnscript="act4/attilan/sc_civilian3" name="sp_attilancivilian02" nocollide="true" />
-    <entity actcountremove="1" character="AttilanCivilian_d" classname="monsterspawnerent" instantspawn="true" monster_smartent="true" monster_spawnexactlocation="true" monster_spawnscript="act4/attilan/random_talk" name="sp_attilancivilian12" nocollide="true" />
     <entity actcountremove="1" character="BlackWidow" classname="monsterspawnerent" instantspawn="true" monster_actonuse="true" monster_actscript="act4/attilan/talk_blackwidow" monster_acttargets="turn_vision_trans" monster_name="bw" monster_spawnexactlocation="true" monster_spawnscript="act4/attilan/sc_blackwidow" name="sp_blackwidow01" nocollide="true" />
     <entity actcountremove="1" character="HankPym" classname="monsterspawnerent" instantspawn="true" monster_actonuse="true" monster_actscript="act4/attilan/talk_pym" monster_acttargets="turn_vision_trans" monster_name="hank" monster_noaidisable="true" name="sp_hankpym01" nocollide="true" />
     <entity actcountremove="1" character="Karnac" classname="monsterspawnerent" instantspawn="true" monster_actonuse="true" monster_actscript="act4/attilan/talk_karnak" monster_acttargets="turn_vision_trans" monster_name="Karnac" monster_spawnexactlocation="true" monster_spawnscript="act4/attilan/sc_karnac" name="sp_karnac01" nocollide="true" />
