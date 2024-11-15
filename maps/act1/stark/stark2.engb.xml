@@ -85,14 +85,8 @@
     <entinst type="sp_jarvis01">
         <inst extents="-12 -18 0 36 18 84" name="sp_jarvis01" orient="0 0 -1.5708" pos="57.9598 973.492 -120"/>
     </entinst>
-    <entinst type="sp_labtechnician01">
-        <inst extents="-12 -17.9999 0 36 18.0001 84" name="sp_labtechnician01" orient="0 0 -1.58709" pos="-531.335 765.693 0"/>
-    </entinst>
     <entinst type="sp_labtechnician03">
         <inst extents="-12 -18 0 36 18 84" name="sp_labtechnician03" orient="0 0 -0.36536" pos="-316.824 1323.32 0"/>
-    </entinst>
-    <entinst type="sp_labtechnicianfemale02">
-        <inst extents="-12 -18 0 36 18 84" name="sp_labtechnicianfemale02" orient="0 0 -1.24986" pos="597.444 728.791 0"/>
     </entinst>
     <entinst type="sp_labtechnicianfemale01">
         <inst extents="-12 -18 0 36 18 84" name="sp_labtechnicianfemale01" pos="-116.162 1255.81 -120"/>
